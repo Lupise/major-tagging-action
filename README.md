@@ -10,13 +10,15 @@ It's especially useful for GitHub reusable workflow versioning ou GitHub Action 
 
 ## Howto use
 
+If your version is prefixed with a 'v':
+
 ```yaml
 name: Move a major tag to the latest release
 
 on:
   push:
     tags:
-      - v** # Trigger on every tag push beginning with 'v'
+      - v[0-9]+.[0-9]+.[0-9]+
 
 jobs:
   tag:
@@ -27,3 +29,21 @@ jobs:
       - uses: lupise/major-tagging-action@v1
 ```
 
+If your version has no prefix:
+
+```yaml
+name: Move a major tag to the latest release
+
+on:
+  push:
+    tags:
+      - [0-9]+.[0-9]+.[0-9]+
+
+jobs:
+  tag:
+    name: Move major tag
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: lupise/major-tagging-action@v1
+```
