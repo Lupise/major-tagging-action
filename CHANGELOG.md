@@ -1,6 +1,6 @@
 # Major Tagging Action
 
-## 0.1.0 (2023-03-22)
+## v0.1.0 (2023-03-22)
 
 
 ### Features

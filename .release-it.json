@@ -1,9 +1,10 @@
 {
   "git": {
-    "commitMessage": "Release ${version}",
+    "commitMessage": "Release v${version}",
     "requireBranch": "main",
     "requireUpstream": false,
-    "requireCommits": true
+    "requireCommits": true,
+    "tagName": "v${version}"
   },
   "github": {
     "release": false
