@@ -1,6 +1,6 @@
 {
   "name": "major-tagging-action",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Major Tagging Action",
   "devDependencies": {
     "@release-it/conventional-changelog": "^5.1.1",
