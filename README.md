@@ -37,7 +37,7 @@ name: Move a major tag to the latest release
 on:
   push:
     tags:
-      - [0-9]+.[0-9]+.[0-9]+
+      - '[0-9]+.[0-9]+.[0-9]+'
 
 jobs:
   tag:
