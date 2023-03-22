@@ -1,5 +1,12 @@
 # Major Tagging Action
 
+### [0.1.3](https://github.com/Lupise/major-tagging-action/compare/v0...v0.1.3) (2023-03-22)
+
+
+### Miscellaneous
+
+* adding non prefixed version information ([7ef969a](https://github.com/Lupise/major-tagging-action/commit/7ef969a9f2cc73fd4b7d33e8e2874ea083faf758))
+
 ### [0.1.2](https://github.com/Lupise/major-tagging-action/compare/v0.1.1...v0.1.2) (2023-03-22)
 
 
