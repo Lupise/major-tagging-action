@@ -1,5 +1,12 @@
 # Major Tagging Action
 
+### [0.1.2](https://github.com/Lupise/major-tagging-action/compare/v0.1.1...v0.1.2) (2023-03-22)
+
+
+### Bug Fixes
+
+* git error "tag already exists" ([295c17a](https://github.com/Lupise/major-tagging-action/commit/295c17a402f2b63190c10265ef3d90ad34fb7edc))
+
 ### [0.1.1](https://github.com/Lupise/major-tagging-action/compare/v0...v0.1.1) (2023-03-22)
 
 
