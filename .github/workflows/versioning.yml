@@ -1,0 +1,16 @@
+name: Automatic Versioning and releasing
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  packages: write
+
+jobs:
+  manual-release:
+    uses: Lupise/reusable-workflow--release-it/.github/workflows/versioning.yml@v1
+    secrets: inherit
