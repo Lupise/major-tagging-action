@@ -25,7 +25,7 @@ jobs:
     name: Move major tag
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: lupise/major-tagging-action@v1
 ```
 
