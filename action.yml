@@ -28,5 +28,5 @@ runs:
         fi
 
         # Tag current commit with major tag
-        git tag $MAJOR_TAG
+        git tag -fa $MAJOR_TAG
         git push --tags -f
