@@ -1,5 +1,12 @@
 # Major Tagging Action
 
+## [0.1.6](https://github.com/Lupise/major-tagging-action/compare/v0.1.5...v0.1.6) (2024-01-12)
+
+
+### Bug Fixes
+
+* action failing to move tag ([2f02c3f](https://github.com/Lupise/major-tagging-action/commit/2f02c3f61db518a9992fcee3c07d3c5fb1c4018e))
+
 ## [0.1.5](https://github.com/Lupise/major-tagging-action/compare/v0.1.4...v0.1.5) (2024-01-12)
 
 ## [0.1.4](https://github.com/Lupise/major-tagging-action/compare/v0.1.3...v0.1.4) (2023-12-29)
