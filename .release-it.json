@@ -15,7 +15,6 @@
   },
   "plugins": {
     "@release-it/conventional-changelog": {
-      "infile": "CHANGELOG.md",
       "header": "# Major Tagging Action",
       "preset": {
         "name": "conventionalcommits",
