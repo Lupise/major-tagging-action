@@ -3,6 +3,11 @@ description: Move a major tag to the latest tag
 branding:
   icon: "tag"
   color: "blue"
+inputs:
+  exclude_tag_pattern:
+    required: false
+    default: ""
+    description: exclude tag pattern to retrieve the current tag
 runs:
   using: "composite"
   steps:
@@ -15,7 +20,7 @@ runs:
     - name: Re-tagging major tag
       shell: bash
       run: |
-        CURRENT_TAG=$(git describe --tags)
+        CURRENT_TAG=$(git describe --tags --exclude "${{ inputs.exclude_tag_pattern }}")
         MAJOR_TAG=$(awk -F'.' '{print $1}' <<<"$CURRENT_TAG")
 
         # Remove remote old major tag if exists
