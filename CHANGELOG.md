@@ -1,5 +1,7 @@
 # Major Tagging Action
 
+## [0.1.5](https://github.com/Lupise/major-tagging-action/compare/v0.1.4...v0.1.5) (2024-01-12)
+
 ## [0.1.4](https://github.com/Lupise/major-tagging-action/compare/v0.1.3...v0.1.4) (2023-12-29)
 
 
